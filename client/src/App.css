@@ -1,0 +1,31 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    padding: 2px 15px;
+    background: linear-gradient(#a9702a, #966625, #a9702a);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(#a9702a, #855c22, #a9702a);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:after {
+    border: 1px solid #8a5f22;
+}
+
+.form-label {
+    margin: 0 !important;
+}
+
+input {
+    background-color: #8a5f22;
+}
